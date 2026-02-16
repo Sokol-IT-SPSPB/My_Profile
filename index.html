@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakub Sokolovski - IT Student & Lingvista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">JS</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">O mně</a></li>
+                <li><a href="#skills" class="nav-link">Dovednosti</a></li>
+                <li><a href="#interests" class="nav-link">Zájmy</a></li>
+                <li><a href="#goals" class="nav-link">Cíl</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-image">
+                <div class="profile-avatar">JS</div>
+            </div>
+            <div class="hero-text">
+                <h1 id="profile-name">Jakub Sokolovski</h1>
+                <p class="tagline">IT Student • Lingvista • Language Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Kontaktuj mě</a>
+                    <a href="#goals" class="btn btn-secondary">Zjistit více</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">O mně</h2>
+            <div class="about-content">
+                <p>Jsem IT student s vášní pro jazyky a komunikaci. Kombinuji technické dovednosti s lingvistickou znalostí, aby se podílely na tvorbě mezinárodních projektů. Jsem věřím, že jazyk jemost mezi kulturami a technologií.</p>
+                <p>Moje cesta začala zájmem o to, jak komunikují počítače a lidé. Nyní se snažím propojit obě tyto vášně do jednoho profesního směru.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Moje Dovednosti</h2>
+            <div id="dynamic-skills">
+                <!-- Skills will be loaded dynamically from profile.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section class="interests" id="interests">
+        <div class="container">
+            <h2 class="section-title">Moje Zájmy</h2>
+            <div id="dynamic-interests">
+                <!-- Interests will be loaded dynamically from profile.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Moje Projekty</h2>
+            <div id="dynamic-projects">
+                <!-- Projects will be loaded dynamically from profile.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="goals" id="goals">
+        <div class="container">
+            <h2 class="section-title">Můj Cíl</h2>
+            <div class="goals-content">
+                <div class="goal-card">
+                    <h3>Profesionální Zaměření</h3>
+                    <p>Chci své vynikající schopnosti v angličtině využít k nejvyššímu potenciálu. Ideálně v roli, která bude zahrnovat:</p>
+                    <ul class="goals-list">
+                        <li><i class="fas fa-arrow-right"></i> Profesionální překlad technických textů</li>
+                        <li><i class="fas fa-arrow-right"></i> Tlumočení na mezinárodních konferencích a setkáních</li>
+                        <li><i class="fas fa-arrow-right"></i> Spojení IT a jazykových dovedností v globálních projektech</li>
+                        <li><i class="fas fa-arrow-right"></i> Práce v mezinárodním prostředí</li>
+                    </ul>
+                </div>
+
+                <div class="goal-timeline">
+                    <h3>Cesta vpřed</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Nyní</h4>
+                            <p>Rozšiřování dovedností v IT a jazykách</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Blízká budoucnost</h4>
+                            <p>Získání certifikací a praktických zkušeností</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h4>Dlouhodobě</h4>
+                            <p>Posílit si pozici jako odborník v překladu a tlumočení IT obsahu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            <p class="contact-subtitle">Zajímá tě spolupráce nebo chceš se podělit o příležitost? Dej vědět!</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:jakub.sokolovski@example.com">jakub.sokolovski@example.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p><a href="tel:+420722000000">+420 722 000 000</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Česká Republika</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Jakub Sokolovski. Všechna práva vyhrazena.</p>
+            <p>Vytvořeno s <i class="fas fa-heart"></i> pro jazyky a technologii</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
