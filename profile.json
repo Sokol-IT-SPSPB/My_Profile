@@ -1,0 +1,38 @@
+{
+  "name": "Jakub Sokolovski",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Python",
+    "Git",
+    "Linux",
+    "English (C1)",
+    "Translation"
+  ],
+  "interests": [
+    "Web Development",
+    "Jazyky a lingvistika",
+    "Hudba a koncerty",
+    "Umělá inteligence",
+    "Mezinárodní projekty",
+    "Technologické inovace"
+  ],
+  "projects": [
+    {
+      "title": "Osobní IT Profil",
+      "description": "Interaktivní webová stránka s dynamickým obsahem na GitHub Pages",
+      "link": "https://sokol-it-spspb.github.io/My_Profile"
+    },
+    {
+      "title": "Jazykový asistent",
+      "description": "Python aplikace pro výuku jazyků s AI podporou",
+      "link": "#"
+    },
+    {
+      "title": "Git Tutorial",
+      "description": "Komplexní tutoriál o správě verzí a Conventional Commits",
+      "link": "#"
+    }
+  ]
+}
